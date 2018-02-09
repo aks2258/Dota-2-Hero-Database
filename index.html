@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+  <title>Dota 2</title>
+  <!-- dota2 icon will be displayed next to title in the tab -->
+  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="assets//imagesfavicon.ico" type="image/x-icon">
+  <!-- links the css style sheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- Bulma styling that allows for easier column layout -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.3/css/bulma.min.css">
+  </head>
+
+<body>
+ <!-- Img src's next to category are from project member  -->
+  <div class="headerColumn">
+    <div class="headerImg"><img src="https://github.com/Austinparisi42/Project-1/blob/master/assets/images/emblem.jpg?raw=true" height="70" width="70"></div>
+    <div id="headerTitle">
+    Dota 2 Hero Database
+    </div>
+  </div>
+
+  <!-- Class must be named "columns" in order for divs to be laid out as such. Anything within the "columns" div will be displayed in columns-->
+  <div class="columns" >
+    <div class="column">
+      <p id="strength"><img src="https://github.com/Austinparisi42/Project-1/blob/master/assets/images/str.png?raw=true" height="35" width="35">   Strength</p>
+      <div id="str-div"></div>
+    </div>
+    <div class="column">
+      <p id="agility"><img src="https://github.com/Austinparisi42/Project-1/blob/master/assets/images/agi.png?raw=true" height="35" width="35">   Agility</p>
+      <div id="agi-div"></div>
+    </div>
+    <div class="column">
+      <p id="intelligence"><img src="https://github.com/Austinparisi42/Project-1/blob/master/assets/images/int.png?raw=true" height="35" width="35">   Intelligence</p>
+      <div id="int-div"></div>
+    </div>
+  </div>
+   <!-- Contains all of the hero's info and gameplay demo from YouTube -->
+  <div id="heroBioDiv">
+    <!-- Hero's name -->
+    <div class="nameDiv">
+      <div id="name"></div>
+    </div>
+    <!-- Image of the hero -->
+    <div id="image"></div>
+    <!--Displays the hero's stats --> 
+    <div id="stats">
+      <div id="roles"></div>
+      <div id="base-health"></div>
+      <div id="base-str"></div>
+      <div id="base-agi"></div>
+      <div id="base-int"></div>
+    </div>
+    <!-- Will contain the YouTube video -->
+    <div id="youtube"></div>
+  </div>
+
+<!--Allows the use of jquery and links the javascript file to the html file -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="assets/javascript/javascript.js"></script>
+
+<!-- Footer used to cover up the "GIF" logo on the bottom right of the page -->
+<div id="footer">
+    
+    </div>
+
+</body>
+</html>

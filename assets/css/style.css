@@ -1,0 +1,108 @@
+/*** Gif will be used as background ***/
+html{
+	background: url(https://j.gifs.com/58Jvgx.gif) center center fixed;
+	background-size: cover;
+}
+
+.headerColumn {
+	text-align: center;
+	opacity: .9;
+	font-family: KoreanFont,georgia,serif;
+	color:#c4c0c0;
+	font-size:40px;
+	background: #0F0303;
+}
+/**** Formats the text in the columns div ****/
+.columns{
+	text-align: center;
+	color: white;
+	opacity: .9;
+}
+
+p{
+	background: #0F0303;
+}
+ /** Items create the border over each icon of the hero **/
+.item {
+	border: solid 2px transparent;
+}
+
+.item:hover {
+	border-color: red;
+}
+/*********************************************************/
+#strength{
+	font-family: KoreanFont,georgia,serif;
+	color:#c4c0c0;
+	font-size:24px;
+}
+
+#agility{
+	font-family: KoreanFont,georgia,serif;
+	color:#c4c0c0;
+	font-size:24px;
+}
+
+#intelligence{
+	font-family: KoreanFont,georgia,serif;
+	color:#c4c0c0;
+	font-size:24px;
+}
+ /** Organizes each hero img icon together rather than listed vertically **/
+#str-div img, #agi-div img, #int-div img{
+	float: left;
+	margin: 5px;
+
+}
+/**************************************************************************/
+
+/** Floats the divs to the left **/
+#name, #stats, #youtube{
+	float: left;
+}
+
+ /** Formats the YouTube video size on the page **/
+#youtube{
+	margin-left: 40px;
+	position: relative;
+}
+
+#image{
+	float: left;
+	clear: left;
+}
+
+#name{
+	margin-left: 40px;
+	font-family: KoreanFont,georgia,serif;
+	color:#c4c0c0;
+	font-size:35px;
+	width: 100%;
+}
+
+#image img{
+	width: 100%;
+	margin-left: 30px;
+}
+
+#stats{
+	margin-left: 30px;
+	font-family: KoreanFont,georgia,serif;
+	color:#c4c0c0;
+	font-size:15px;
+	background: #0F0303;
+	padding:20px;
+	overflow: auto;
+}
+
+/**** Formats the footer to cover up the GIF logo on bottom right of background ***/
+#footer{
+    position:absolute;
+    bottom:0px;
+    width:100%;
+    background: #0F0303;
+    padding: 24px;
+    font-size: 12px;
+    color: #CCC;
+    text-align: center;
+}
